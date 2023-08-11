@@ -2,11 +2,10 @@ const express = require('express');
 const helmet = require('helmet');
 const app = express();
 
-const PORT = process.env.Port || 3030;
 
-app.listen(PORT, () => {
-  console.log('Jarrell FCC InfoSec on port ${Port}');
-});
+
+
+  
 
 
 
@@ -63,5 +62,7 @@ app.get("/", function (request, response) {
 });
 let port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Your app is listening on port ${port}`);
+  console.log('Jarrell FCC InfoSec on port ${port}');
 });
+ 
+
